@@ -5,24 +5,6 @@
     
     <url>
     
-      <loc>https://pranita-s.github.io/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://pranita-s.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://pranita-s.github.io/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -43,6 +25,24 @@
     
       <loc>https://pranita-s.github.io/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://pranita-s.github.io/talk/example-talk/</loc>
+      <lastmod>2017-01-01T00:00:00+05:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://pranita-s.github.io/post/</loc>
+      <lastmod>2017-01-01T00:00:00+05:30</lastmod>
     </url>
     
   
@@ -105,7 +105,7 @@
     <url>
     
       <loc>https://pranita-s.github.io/post/getting-started/</loc>
-      <lastmod>2017-09-03T00:00:00-04:00</lastmod>
+      <lastmod>2017-09-03T00:00:00+05:30</lastmod>
     </url>
     
   
@@ -114,7 +114,7 @@
     <url>
     
       <loc>https://pranita-s.github.io/post/widgets/</loc>
-      <lastmod>2016-04-19T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-19T00:00:00+05:30</lastmod>
     </url>
     
   
@@ -123,7 +123,7 @@
     <url>
     
       <loc>https://pranita-s.github.io/post/managing-content/</loc>
-      <lastmod>2016-04-18T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-18T00:00:00+05:30</lastmod>
     </url>
     
   
@@ -132,7 +132,7 @@
     <url>
     
       <loc>https://pranita-s.github.io/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-17T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-17T00:00:00+05:30</lastmod>
     </url>
     
   
@@ -141,7 +141,7 @@
     <url>
     
       <loc>https://pranita-s.github.io/post/faq/</loc>
-      <lastmod>2016-04-10T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-10T00:00:00+05:30</lastmod>
     </url>
     
   
@@ -159,7 +159,7 @@
     <url>
     
       <loc>https://pranita-s.github.io/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00-04:00</lastmod>
+      <lastmod>2014-03-10T00:00:00+05:30</lastmod>
     </url>
     
   
@@ -236,7 +236,7 @@
     <url>
     
       <loc>https://pranita-s.github.io/tags/hugo/</loc>
-      <lastmod>2017-09-03T00:00:00-04:00</lastmod>
+      <lastmod>2017-09-03T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
     
@@ -246,7 +246,7 @@
     <url>
     
       <loc>https://pranita-s.github.io/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00-04:00</lastmod>
+      <lastmod>2014-03-10T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
     
