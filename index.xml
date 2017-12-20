@@ -25,7 +25,33 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://pranita-s.github.io/project/infragraf/</guid>
-      <description></description>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I was part of this project during my tenure at Mphasis NEXT Labs as an Intern and Software Engineer.&lt;/li&gt;
+&lt;li&gt;InfraGraf® is a Big Data complex event processing engine which enables enterprises to innovate and make strategic decisions regarding their technology infrastructure through actionable insights by correlation and causation analysis structured and unstructured data. It models enterprise technology infrastructure as complex systems consisting of interconnected servers, network devices, internet of things, industrial equipment etc. The powerful machine learning and graph theory based algorithms built into the platform identifies and predicts stand-alone as well as chain of events and incidents which could be related to system warnings, failures, outages, performance, availability and sub-optimal performances.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;My Role&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Leveraging power of Apache Spark Framework -
+
+&lt;ul&gt;
+&lt;li&gt;One of the data cleaning algorithms was taking more time than expected and an optimized approach for the same was crucial. I implemented the algorithm using Apache Spark in R programming language taking advantage of its distributed and parallel execution and robust implementation.&lt;/li&gt;
+&lt;li&gt;For execution on cluster mode, I used AWS EC2 instances and S3 for storage. I also wrote python script for automating the process of cluster creation, code execution and cluster termination.&lt;/li&gt;
+&lt;li&gt;It resulted in the decrease of the run time by 20 folds and was part of the product deployment.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Pattern Extraction from sequence data -
+
+&lt;ul&gt;
+&lt;li&gt;Assigned to a team of two.&lt;/li&gt;
+&lt;li&gt;This is sub-project of the InfraGraf product. It is aimed at extracting all common patterns among given set event sequences with a minimum support and confidence. A common pattern is defined as a sequence which is subsequence among a defined minimum number of event sequences. Random walk based automata algorithm is built in C for this purpose. This algorithm is tested to give accurate results and implemented in real industrial applications.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
