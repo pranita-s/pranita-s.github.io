@@ -85,9 +85,9 @@ For instance, if a user asks &amp;ldquo;List cases for Judge Lucy Koh&amp;rdquo;
 &lt;ul&gt;
 &lt;li&gt;s = u + a*t&lt;/li&gt;
 &lt;li&gt;v*v = u*u + 2*a*s&lt;/li&gt;
-&lt;li&gt;s = u*t + 0.5*a*t*t
-To achieve this, machine has to identify given entites such as velocity, displacement and time and also identify which entity has to be computed.&lt;/li&gt;
+&lt;li&gt;s = u*t + 0.5*a*t*t&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;To achieve this, machine has to identify given entites such as velocity, displacement and time and also identify which entity has to be computed.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Solution&lt;/strong&gt;
 
