@@ -20,32 +20,6 @@
     </item>
     
     <item>
-      <title>Document Summarization</title>
-      <link>https://pranita-s.github.io/project/semantic/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://pranita-s.github.io/project/semantic/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I was part of the team during my tenure at Mphasis NEXT Labs as a Software Engineer.&lt;/li&gt;
-&lt;li&gt;This project is aimed to summarize grammatically written English document by build a queriable directed graph based on semantics and context (i.e. Event and Action). The query on graph can retrieve information about action and its effect, and entity and its role. We adopted various NLP and text mining methodologies to build the graph and stored the graph in Neo4j for effective information retrieval.&lt;/li&gt;
-&lt;li&gt;This project involved usage of R and Python programming language, CoreNLP package for finding co-references among sentences, tokenization and POS tagging, Senna framework for Semantic Role Labelling, Semafor for frame-semantic parsing and Neo4j framework for graph querying.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;My Role&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I implemented co-reference relationship builder using CoreNLP (which internally uses Stanford CoreNLP framework) for replacement of pronouns with their respective nouns.&lt;/li&gt;
-&lt;li&gt;I translated retrieved relationship between prominent nouns and verbs from the document pre-processing to Neo4j graph&lt;/li&gt;
-&lt;li&gt;(Team of two) We created a GUI in RShiny for a prototype demonstration&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>InfraGraf</title>
       <link>https://pranita-s.github.io/project/infragraf/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -205,6 +179,32 @@ For instance, if a user asks &amp;ldquo;List cases for Judge Lucy Koh&amp;rdquo;
 &lt;ul&gt;
 &lt;li&gt;I presented this work at Woman Who Code Conference held in Bangalore,India in March 2017 as a lightening talk speaker.&lt;/li&gt;
 &lt;li&gt;More details about the work can be seen at &lt;a href=&#34;https://drive.google.com/file/d/1eWJSIztqPYhv__SGZO6onDPzCbP_i8Qb/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;https://drive.google.com/file/d/1eWJSIztqPYhv__SGZO6onDPzCbP_i8Qb/view?usp=sharing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Summarization of Document</title>
+      <link>https://pranita-s.github.io/project/semantic/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://pranita-s.github.io/project/semantic/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I was part of the team during my tenure at Mphasis NEXT Labs as a Software Engineer.&lt;/li&gt;
+&lt;li&gt;This project is aimed to summarize grammatically written English document by build a queriable directed graph based on semantics and context (i.e. Event and Action). The query on graph can retrieve information about action and its effect, and entity and its role. We adopted various NLP and text mining methodologies to build the graph and stored the graph in Neo4j for effective information retrieval.&lt;/li&gt;
+&lt;li&gt;This project involved usage of R and Python programming language, CoreNLP package for finding co-references among sentences, tokenization and POS tagging, Senna framework for Semantic Role Labelling, Semafor for frame-semantic parsing and Neo4j framework for graph querying.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;My Role&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I implemented co-reference relationship builder using CoreNLP (which internally uses Stanford CoreNLP framework) for replacement of pronouns with their respective nouns.&lt;/li&gt;
+&lt;li&gt;I translated retrieved relationship between prominent nouns and verbs from the document pre-processing to Neo4j graph&lt;/li&gt;
+&lt;li&gt;(Team of two) We created a GUI in RShiny for a prototype demonstration&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
