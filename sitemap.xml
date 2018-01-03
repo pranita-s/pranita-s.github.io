@@ -225,16 +225,6 @@
     
     <url>
     
-      <loc>https://pranita-s.github.io/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://pranita-s.github.io/tags/hugo/</loc>
       <lastmod>2017-09-03T00:00:00+05:30</lastmod>
       <priority>0</priority>
@@ -247,6 +237,16 @@
     
       <loc>https://pranita-s.github.io/tags/jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+05:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://pranita-s.github.io/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
