@@ -71,48 +71,6 @@
     </item>
     
     <item>
-      <title>Making Search into Conversation</title>
-      <link>https://pranita-s.github.io/project/alexa/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://pranita-s.github.io/project/alexa/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Conversational user interfaces are becoming increasingly used for a variety of research needs.
-Some are voice-activated (such as Alexa, Siri, and Google Now), but many are text-oriented chatbots appearing as assistants in the context of a larger application. Text chatbots are being considered for providing help in using our products, but also for improving the legal research experience
-Given a set of case law and judge data, answer research questions using a text-oriented, conversational interface.
-For instance, if a user asks &amp;ldquo;List cases for Judge Lucy Koh&amp;rdquo;, the system would respond with a list of cases where Judge Koh is listed as a presiding judge.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Test Cases&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;U: List cases handled by Judge ADAMS&lt;/li&gt;
-&lt;li&gt;B: THERE ARE 6 JUDGES with Llast name ADAMS and 2 JUDGES with FIRST NAME&lt;/li&gt;
-&lt;li&gt;U: Last name ADAMS&lt;/li&gt;
-&lt;li&gt;B: There are only 2 JUDGES with last name ADAMS who are currently on service with first name Henry Lee in Florida and John R in state of OHIO.&lt;/li&gt;
-&lt;li&gt;U: The one in state of OHIO&lt;/li&gt;
-&lt;li&gt;B: There were 0 cases handled by the judge&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Team&amp;rsquo;s Solution&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We trained DialogFlow with the provided data and then integrated it with Amazon Alexa as a medium of conversation. To accomplish this we used DialogFlow&amp;rsquo;s Alexa Exporter and Amazon Developer Dashboard. After training DialogFlow with the data, we generated Alexa compatible files and then used these files to create a new skill for Alexa.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;My Role&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I trained DialogFlow with help of the data by creating appropriate intents, entities and actions.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Multi-server Architecture using Raspberry Pi</title>
       <link>https://pranita-s.github.io/project/raspberry/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -161,6 +119,48 @@ For instance, if a user asks &amp;ldquo;List cases for Judge Lucy Koh&amp;rdquo;
 &lt;ul&gt;
 &lt;li&gt;I contributed in the implementation of PSO algorithm in Python.&lt;/li&gt;
 &lt;li&gt;Presentation for the same can be seen at - &lt;a href=&#34;https://docs.google.com/presentation/d/1FCd6igOw26W61A8BTVw7EHkDMXfhQ50d6YtcpuwGTMc/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;https://docs.google.com/presentation/d/1FCd6igOw26W61A8BTVw7EHkDMXfhQ50d6YtcpuwGTMc/edit?usp=sharing&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Search into Conversation</title>
+      <link>https://pranita-s.github.io/project/alexa/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://pranita-s.github.io/project/alexa/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Conversational user interfaces are becoming increasingly used for a variety of research needs.
+Some are voice-activated (such as Alexa, Siri, and Google Now), but many are text-oriented chatbots appearing as assistants in the context of a larger application. Text chatbots are being considered for providing help in using our products, but also for improving the legal research experience
+Given a set of case law and judge data, answer research questions using a text-oriented, conversational interface.
+For instance, if a user asks &amp;ldquo;List cases for Judge Lucy Koh&amp;rdquo;, the system would respond with a list of cases where Judge Koh is listed as a presiding judge.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Test Cases&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;U: List cases handled by Judge ADAMS&lt;/li&gt;
+&lt;li&gt;B: THERE ARE 6 JUDGES with Llast name ADAMS and 2 JUDGES with FIRST NAME&lt;/li&gt;
+&lt;li&gt;U: Last name ADAMS&lt;/li&gt;
+&lt;li&gt;B: There are only 2 JUDGES with last name ADAMS who are currently on service with first name Henry Lee in Florida and John R in state of OHIO.&lt;/li&gt;
+&lt;li&gt;U: The one in state of OHIO&lt;/li&gt;
+&lt;li&gt;B: There were 0 cases handled by the judge&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Team&amp;rsquo;s Solution&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We trained DialogFlow with the provided data and then integrated it with Amazon Alexa as a medium of conversation. To accomplish this we used DialogFlow&amp;rsquo;s Alexa Exporter and Amazon Developer Dashboard. After training DialogFlow with the data, we generated Alexa compatible files and then used these files to create a new skill for Alexa.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;My Role&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I trained DialogFlow with help of the data by creating appropriate intents, entities and actions.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
