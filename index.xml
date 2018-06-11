@@ -10,6 +10,32 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Pursuit of Python</title>
+      <link>https://pranita-s.github.io/post/searchpython/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://pranita-s.github.io/post/searchpython/</guid>
+      <description>
+
+&lt;p&gt;Pursuit of Reticulate package in Windows is tricky than searching its installation in Ubuntu/Mac. Windows operating system has disintegrated structure for file storage. It also has different drives such as C,D etc. which can be the home for software installation. Over this layer of complicated file structure comes the different ways in which Python can be installed in the Windows OS. It can be a manual installation of &lt;strong&gt;python.exe&lt;/strong&gt; or through frameworks such as &lt;strong&gt;Miniconda&lt;/strong&gt;, &lt;strong&gt;Anaconda&lt;/strong&gt;. This overlaying complications make the location of Python and its containing packages very unpredictable. Also, the search should be successful if the code in executed from the terminal or within IDE such as RStudio. I tried my best to go through proper research before writing my code for this convoluted &lt;strong&gt;pursuit&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;literature-survey&#34;&gt;Literature Survey&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The current code for checking Reticulate installation in Windows adds all predicatable paths in which Python could have been installed taking into consideration manual as well as platform based installations. Then, these are added to the RStudio&amp;rsquo;s environment PATH so that RStudio can locate &lt;strong&gt;Reticulate&lt;/strong&gt;. The underlying disadvantage with this approach is the fact that, we cannot predict all the paths where Python could have been installed. During manual installation of Python, it could have been possible that the user gave its custom created directory as its location. This path, cannot be predicted for adding in the list of possible paths. Therefore, a more robust and flexibe approach is needed for this intricate pursuit.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;PythonInR&lt;/strong&gt; is a R package which allows the user to interact with Python from R environment. I studied its source code to understand how it is locating Python as its crucial step for the successfull package working. It has a function named &lt;strong&gt;autodetectPython.R&lt;/strong&gt; which accomplishes this task. It tries to locate Python using &lt;strong&gt;where&lt;/strong&gt; command in the terminal then filter the searches according to the &amp;ldquo;arch&amp;rdquo; of R version. Henceforth, it tries of locate dll file of Python for final connection&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;approach-implemented&#34;&gt;Approach Implemented&lt;/h2&gt;
+
+&lt;p&gt;The proposal I wrote for solving this problem used a command called &lt;strong&gt;which&lt;/strong&gt; from the terminal. I tried to emulate the same process of &lt;strong&gt;which&lt;/strong&gt; command of R. With the Windows 8, the terminal command was working like the command of R. The search needs to be carried out from the home directory containing the software to be searched. For example, if Reticulate is present in D drive, searching need to be started from the top most directory of the drive to find it. If the search begins from any other drive, say C, the search will be unsuccessful.&lt;/p&gt;
+
+&lt;p&gt;But the trouble occurred, when I realised that, &amp;ldquo;which&amp;rdquo; terminal command was not present in Windows 10 and Windows 7 by default. Hence, I am currently using &lt;strong&gt;where&lt;/strong&gt; command to carry out the search for Reticulate. I have checked that it is present in all the Windows. The best part of &lt;strong&gt;where&lt;/strong&gt; command is that it can search for any entity irrespective of its current location. For example, if the current location is in C drive, an entity present in D Drive can be retrived. Therefore, it will take care of the different ways of Python installation as well as the complicated file structure of Windows.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Power of Reticulate</title>
       <link>https://pranita-s.github.io/post/reticulate/</link>
       <pubDate>Sun, 20 May 2018 00:00:00 +0530</pubDate>
