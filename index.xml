@@ -10,6 +10,42 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Peculiar Case of Environments</title>
+      <link>https://pranita-s.github.io/post/envs/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://pranita-s.github.io/post/envs/</guid>
+      <description>
+
+&lt;p&gt;After in depth analysis and various permutations of testing environments, we figured out that in the journey to code &lt;strong&gt;check_retriever()&lt;/strong&gt; function for &lt;strong&gt;rdataretriever&lt;/strong&gt; package, the most difficult hurdle to overcome is not different operating systems (Linux, Windows, MacOS). Its actually the existance of different virtual environments in the system.&lt;/p&gt;
+
+&lt;p&gt;When there are more than one virtual environments in the system, a whole new spectrum of possibilities come into picture:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The user might have &lt;strong&gt;Retriever&lt;/strong&gt; installed in any one of the environments&lt;/li&gt;
+&lt;li&gt;While executing &lt;strong&gt;R&lt;/strong&gt; code, it might be possible that the execution and existence of &lt;strong&gt;Retriever&lt;/strong&gt; package are in different environments.&lt;/li&gt;
+&lt;li&gt;Or, both of them are in same environment.&lt;/li&gt;
+&lt;li&gt;It might be also possible that the user is executing &lt;strong&gt;R&lt;/strong&gt; in a normal system environment and the package is present in a virtual environment.&lt;/li&gt;
+&lt;li&gt;Over all these likelihoods, the user could be executing &lt;strong&gt;R&lt;/strong&gt; code through the &lt;strong&gt;R terminal&lt;/strong&gt; or &lt;strong&gt;RStudio&lt;/strong&gt;. This is one of the uncertainties that bug &lt;strong&gt;R&lt;/strong&gt; users the most. The reason being, the way &lt;strong&gt;R&lt;/strong&gt; finds and interprets paths in the systems, is completely different for terminal and IDE. Terminal uses system variables and &lt;strong&gt;RStudio&lt;/strong&gt; uses its own variables, which are entirely different.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;approaches-that-did-not-work&#34;&gt;Approaches that did not work&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The very first was using system terminal commands such as &lt;strong&gt;which&lt;/strong&gt; in Linux based OS and &lt;strong&gt;where&lt;/strong&gt; in Windows, but it appeared to be a inept way to solve the issue as it did not really work for Mac OS. Also, the terminal and IDE execution produced different outputs in terms of paths.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The next solution was leveraging the capabilities of the functions of &lt;strong&gt;Reticulate&lt;/strong&gt;. It has a amazing function &lt;strong&gt;py_config()&lt;/strong&gt; which tracks all the &lt;strong&gt;Python&lt;/strong&gt; version in the system and identifies their path. The approach was to use these paths, and append them to the &lt;strong&gt;Sys.getenv(&amp;lsquo;PATH&amp;rsquo;)&lt;/strong&gt; variable. After this &lt;strong&gt;R&lt;/strong&gt; can try to find &lt;strong&gt;Retriever&lt;/strong&gt; in these locations using &lt;strong&gt;Sys.which()&lt;/strong&gt;. Assuming that &lt;strong&gt;py_config()&lt;/strong&gt; is able to track down all the &lt;strong&gt;Python&lt;/strong&gt; versions, this approach seemed bullet-proof, because if &lt;strong&gt;Retriever&lt;/strong&gt; is not found in any of the paths appended, then it surely does not exist in the system.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The problem was the assumption that &lt;strong&gt;py_config()&lt;/strong&gt; is able to search all the &lt;strong&gt;Python&lt;/strong&gt; versions in the system. In reality, it did not. And the culprit is the existence of multiple virtual environments. The function cannot find &lt;strong&gt;Retriever&lt;/strong&gt; is present in any of the environments except the current.&lt;/p&gt;
+
+&lt;h2 id=&#34;approach-implemented&#34;&gt;Approach Implemented&lt;/h2&gt;
+
+&lt;p&gt;The bottom-line conclusion of all the failures encountered while trying to come out with an invincible function which can track &lt;strong&gt;Retriever&lt;/strong&gt; in the system no matter what is the permutation of OS, virtual environment, Python installation, IDE/Terminal etc., is giving the user the flexibility of feeding in the required path to the &lt;strong&gt;rdataretriever&lt;/strong&gt; package of &lt;strong&gt;R&lt;/strong&gt;. This is done by a new function &lt;strong&gt;use_RetrieverPath()&lt;/strong&gt; which takes in the path and appends it to the &lt;strong&gt;PATH&lt;/strong&gt; variable. This works with terminal/IDE and different operating systems. The important factor is, even if the the user is not present in the same environment as the &lt;strong&gt;Retriever&lt;/strong&gt;, it can still access it from a different environment if its path is already known.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Pursuit of Python</title>
       <link>https://pranita-s.github.io/post/searchpython/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0530</pubDate>

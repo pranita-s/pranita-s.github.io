@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Peculiar Case of Environments</title>
+      <link>https://pranita-s.github.io/post/envs/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://pranita-s.github.io/post/envs/</guid>
+      <description>After in depth analysis and various permutations of testing environments, we figured out that in the journey to code check_retriever() function for rdataretriever package, the most difficult hurdle to overcome is not different operating systems (Linux, Windows, MacOS). Its actually the existance of different virtual environments in the system.
+When there are more than one virtual environments in the system, a whole new spectrum of possibilities come into picture:</description>
+    </item>
+    
+    <item>
       <title>Pursuit of Python</title>
       <link>https://pranita-s.github.io/post/searchpython/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0530</pubDate>
