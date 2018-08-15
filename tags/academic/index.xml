@@ -12,6 +12,35 @@
     
     
     <item>
+      <title>Every end is a new beginning</title>
+      <link>https://pranita-s.github.io/post/final/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://pranita-s.github.io/post/final/</guid>
+      <description>Standing in the position of being in final evaluation is surreal.
+The journey for GSoC started in January 2018, when I came to know about it but did not know where to start. I spent roughly 3 weeks trying to figure out how to select organizations, being in different mailing lists and slack groups, trying my best to comprehend how can I keep up with the students who are well ahead of me in understanding Open Source Community and projects.</description>
+    </item>
+    
+    <item>
+      <title>Survive the (Travis) test of time</title>
+      <link>https://pranita-s.github.io/post/test/</link>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://pranita-s.github.io/post/test/</guid>
+      <description>The rdataretriever project not only exposed me to systematic coding, but it also introduced me to Testing and Travis. I learned how to deal with Travis environment and its different and weird behaviour when it comes to intrepreting paths. In the beginning, it was little overwhelming because all I could see was &amp;ldquo;red crosses&amp;rdquo; on my dashboard with occassional &amp;ldquo;green&amp;rdquo; ones (Breathing a sigh of relief) after consistent updates to the config file in the hopes that it will pass.</description>
+    </item>
+    
+    <item>
+      <title>Out with the old, in with the new</title>
+      <link>https://pranita-s.github.io/post/python_versions/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://pranita-s.github.io/post/python_versions/</guid>
+      <description>The migration of Python from 2 to 3 has given some unprecedented troubles to Python developers. There are variety of differences between the two, and the biggest pain is the fact that new packages and bundles do not really have a great support to Python 2. To add to the despair, the errors encountered are the not the true reflection of the trouble going on inside the actual code.
+After being certain with the Reticulate and its application in writing the new rdataretriever functions, I faced an absolute shock when the test where failing in Windows 10 machine with Python 2.</description>
+    </item>
+    
+    <item>
       <title>Peculiar Case of Environments</title>
       <link>https://pranita-s.github.io/post/envs/</link>
       <pubDate>Sun, 08 Jul 2018 00:00:00 +0530</pubDate>
@@ -37,6 +66,15 @@ When there are more than one virtual environments in the system, a whole new spe
       
       <guid>https://pranita-s.github.io/post/reticulate/</guid>
       <description>It is been two weeks, since my last post about my GSoC selection. The first task assigned to me was writing a versatile install function for R API which will be at par in terms of functionalities of Python API. Earlier during my proposal preparation, I focussed on the need of configuration details required by databases such as PostgreSQL,MySQL,SQLite. For instance, they could be made available through, configuration file (custom made by user or default file) or in absence of this file, command the Retriever to use defaults from code base.</description>
+    </item>
+    
+    <item>
+      <title>Google Summer of Code 2018</title>
+      <link>https://pranita-s.github.io/post/gsocselection/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://pranita-s.github.io/post/gsocselection/</guid>
+      <description>The clock struck 9:30 pm IST on 23rd April, 2018. I had been extremely impatient for this day since I submitted my proposal for Google Summer of Code on 27th March 2018. I checked my dashboard on the GSoC website and it showed my status as Active. I was flummoxed after seeing it, as I did not really know what to comprehend - Am I selected ? or Am I not ?</description>
     </item>
     
   </channel>
