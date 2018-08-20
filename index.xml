@@ -19,9 +19,13 @@
 
 &lt;p&gt;With GSoC coming to an end, I would like to summarize the work that has been completed. The proposal I wrote for the project was on the track with the ideas list which was mentioned for the same, augmented with few ideas of my own. I time required for the accomplishment of the tasks mentioned in ideas list was extended due to extensive testing in different systems and configurations to find solutions.&lt;/p&gt;
 
-&lt;p&gt;The tasks accomplished during the GSoC journey are for two projects:
-  * &lt;strong&gt;rdataretriever&lt;/strong&gt; - It contains the core code of the R package. As reflected by the &lt;a href=&#34;https://github.com/weecology/retriever/wiki/GSoC-2018-Project-Ideas&#34; target=&#34;_blank&#34;&gt;GSoC ideas list&lt;/a&gt; for this project, the new code encompasses all the points mentioned. The R package is at par with Python package now and the Python path detection problem has been resolved.
-  * &lt;strong&gt;retriever&lt;/strong&gt; - It contains the documentation for the updated code of the R package. It has been equipped with the crucial examples and detailed explanation for the same.&lt;/p&gt;
+&lt;p&gt;The tasks accomplished during the GSoC journey are for two projects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;rdataretriever&lt;/strong&gt; - It contains the core code of the R package. As reflected by the &lt;a href=&#34;https://github.com/weecology/retriever/wiki/GSoC-2018-Project-Ideas&#34; target=&#34;_blank&#34;&gt;GSoC ideas list&lt;/a&gt; for this project, the new code encompasses all the points mentioned. The R package is at par with Python package now and the Python path detection problem has been resolved.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;retriever&lt;/strong&gt; - It contains the documentation for the updated code of the R package. It has been equipped with the crucial examples and detailed explanation for the same.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The work completed are reflected by the following URLs. I have divided them, first according to projects and then subdivided into commits and PRs.&lt;/p&gt;
 
@@ -41,8 +45,9 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/ropensci/rdataretriever/commits?author=pranita-s&#34; target=&#34;_blank&#34;&gt;Merged Commits&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The work on passing Travis CI testing is still in progress. I require more time to make it error-proof and hence I will complete it in near future.
-With the end of this journey, I have gained substantial knowledge about working in Open Source Community, GitHub, R packages, Travis testing, dealing with different environments and last but not the least, a better coder.&lt;/p&gt;
+&lt;p&gt;The work on passing Travis CI testing is still in progress. I require more time to make it error-proof and hence I will continue my work on it and finish it in near future.&lt;/p&gt;
+
+&lt;p&gt;With the end of this journey, I have gained substantial knowledge about working in Open Source Community, GitHub, R packages, Travis testing, dealing with different environments and last but not the least, a better coder.&lt;/p&gt;
 </description>
     </item>
     
