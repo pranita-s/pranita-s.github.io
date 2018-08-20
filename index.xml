@@ -10,9 +10,46 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Culmination of GSoC</title>
+      <link>https://pranita-s.github.io/post/final_results/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://pranita-s.github.io/post/final_results/</guid>
+      <description>
+
+&lt;p&gt;With GSoC coming to an end, I would like to summarize the work that has been completed. The proposal I wrote for the project was on the track with the ideas list which was mentioned for the same, augmented with few ideas of my own. I time required for the accomplishment of the tasks mentioned in ideas list was extended due to extensive testing in different systems and configurations to find solutions.&lt;/p&gt;
+
+&lt;p&gt;The tasks accomplished during the GSoC journey are for two projects:
+  * &lt;strong&gt;rdataretriever&lt;/strong&gt; - It contains the core code of the R package. As reflected by the &lt;a href=&#34;https://github.com/weecology/retriever/wiki/GSoC-2018-Project-Ideas&#34; target=&#34;_blank&#34;&gt;GSoC ideas list&lt;/a&gt; for this project, the new code encompasses all the points mentioned. The R package is at par with Python package now and the Python path detection problem has been resolved.
+  * &lt;strong&gt;retriever&lt;/strong&gt; - It contains the documentation for the updated code of the R package. It has been equipped with the crucial examples and detailed explanation for the same.&lt;/p&gt;
+
+&lt;p&gt;The work completed are reflected by the following URLs. I have divided them, first according to projects and then subdivided into commits and PRs.&lt;/p&gt;
+
+&lt;h2 id=&#34;retriever&#34;&gt;retriever&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/weecology/retriever/issues?utf8=%E2%9C%93&amp;amp;q=pranita+&#34; target=&#34;_blank&#34;&gt;Issues List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/weecology/retriever/pulls?utf8=%E2%9C%93&amp;amp;q=pranita&#34; target=&#34;_blank&#34;&gt;Pull Requests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/weecology/retriever/commits?author=pranita-s&#34; target=&#34;_blank&#34;&gt;Merged Commits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;rdataretriever&#34;&gt;rdataretriever&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ropensci/rdataretriever/issues?utf8=%E2%9C%93&amp;amp;q=pranita&#34; target=&#34;_blank&#34;&gt;Issues List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ropensci/rdataretriever/pulls?utf8=%E2%9C%93&amp;amp;q=pranita&#34; target=&#34;_blank&#34;&gt;Pull Requests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ropensci/rdataretriever/commits?author=pranita-s&#34; target=&#34;_blank&#34;&gt;Merged Commits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The work on passing Travis CI testing is still in progress. I require more time to make it error-proof and hence I will complete it in near future.
+With the end of this journey, I have gained substantial knowledge about working in Open Source Community, GitHub, R packages, Travis testing, dealing with different environments and last but not the least, a better coder.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Every end is a new beginning</title>
       <link>https://pranita-s.github.io/post/final/</link>
-      <pubDate>Wed, 08 Aug 2018 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/final/</guid>
       <description>&lt;p&gt;Standing in the position of being in final evaluation is surreal.&lt;/p&gt;
@@ -30,7 +67,7 @@
     <item>
       <title>Survive the (Travis) test of time</title>
       <link>https://pranita-s.github.io/post/test/</link>
-      <pubDate>Mon, 30 Jul 2018 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/test/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;rdataretriever&lt;/strong&gt; project not only exposed me to systematic coding, but it also introduced me to Testing and Travis. I learned how to deal with Travis environment and its different and weird behaviour when it comes to intrepreting paths. In the beginning, it was little overwhelming because all I could see was &amp;ldquo;red crosses&amp;rdquo; on my dashboard with occassional &amp;ldquo;green&amp;rdquo; ones (Breathing a sigh of relief) after consistent updates to the config file in the hopes that it will pass.&lt;/p&gt;
@@ -47,7 +84,7 @@ Dealing with Travis requires a different perspective and deep understanding abou
     <item>
       <title>Out with the old, in with the new</title>
       <link>https://pranita-s.github.io/post/python_versions/</link>
-      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/python_versions/</guid>
       <description>&lt;p&gt;The migration of Python from 2 to 3 has given some unprecedented troubles to Python developers. There are variety of differences between the two, and the biggest pain is the fact that new packages and bundles do not really have a great support to Python 2. To add to the despair, the errors encountered are the not the true reflection of the trouble going on inside the actual code.&lt;/p&gt;
@@ -65,7 +102,7 @@ Dealing with Travis requires a different perspective and deep understanding abou
     <item>
       <title>Peculiar Case of Environments</title>
       <link>https://pranita-s.github.io/post/envs/</link>
-      <pubDate>Sun, 08 Jul 2018 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/envs/</guid>
       <description>
@@ -101,7 +138,7 @@ Dealing with Travis requires a different perspective and deep understanding abou
     <item>
       <title>Pursuit of Python</title>
       <link>https://pranita-s.github.io/post/searchpython/</link>
-      <pubDate>Mon, 11 Jun 2018 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/searchpython/</guid>
       <description>
@@ -127,7 +164,7 @@ Dealing with Travis requires a different perspective and deep understanding abou
     <item>
       <title>Power of Reticulate</title>
       <link>https://pranita-s.github.io/post/reticulate/</link>
-      <pubDate>Sun, 20 May 2018 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 20 May 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/reticulate/</guid>
       <description>&lt;p&gt;It is been two weeks, since my last post about my GSoC selection. The first task assigned to me was writing a versatile install function for R API which will be at par in terms of functionalities of Python API. Earlier during my proposal preparation, I focussed on the need of configuration details required by databases such as &lt;strong&gt;PostgreSQL&lt;/strong&gt;,&lt;strong&gt;MySQL&lt;/strong&gt;,&lt;strong&gt;SQLite&lt;/strong&gt;. For instance, they could be made available through, &lt;strong&gt;configuration file (custom made by user or default file)&lt;/strong&gt; or in absence of this file, command the &lt;strong&gt;Retriever&lt;/strong&gt; to use defaults from code base.&lt;/p&gt;
@@ -143,7 +180,7 @@ Dealing with Travis requires a different perspective and deep understanding abou
     <item>
       <title>Google Summer of Code 2018</title>
       <link>https://pranita-s.github.io/post/gsocselection/</link>
-      <pubDate>Sat, 05 May 2018 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 05 May 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/gsocselection/</guid>
       <description>&lt;p&gt;The clock struck 9:30 pm IST on 23rd April, 2018. I had been extremely impatient for this day since I submitted my proposal for &lt;a href=&#34;https://summerofcode.withgoogle.com/&#34; target=&#34;_blank&#34;&gt;Google Summer of Code&lt;/a&gt; on 27th March 2018. I checked my dashboard on the GSoC website and it showed my status as &lt;strong&gt;Active&lt;/strong&gt;. I was flummoxed after seeing it, as I did not really know what to comprehend -  Am I selected ? or Am I not ?. I started repeatedly refreshing my email account to witness an official email from Google stating my selection. After about 20 minutes, it was as it is, no new email. Well, it were really long 30 minutes, after which I received the email and then I had the tranquil realization, I had been waiting for, &lt;strong&gt;My Project Selection&lt;/strong&gt;. Subsequently, I received &amp;ldquo;congrats&amp;rdquo; from my mentors which made me even more happier.&lt;/p&gt;
@@ -159,7 +196,7 @@ Dealing with Travis requires a different perspective and deep understanding abou
     <item>
       <title>Example Talk</title>
       <link>https://pranita-s.github.io/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>https://pranita-s.github.io/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
@@ -354,16 +391,6 @@ For instance, if a user asks &amp;ldquo;List cases for Judge Lucy Koh&amp;rdquo;
 &lt;li&gt;(Team of two) We created a GUI in RShiny for a prototype demonstration&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>https://pranita-s.github.io/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://pranita-s.github.io/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     

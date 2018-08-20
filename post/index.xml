@@ -6,15 +6,24 @@
     <description>Recent content in Posts on Pranita Sharma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://pranita-s.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Culmination of GSoC</title>
+      <link>https://pranita-s.github.io/post/final_results/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://pranita-s.github.io/post/final_results/</guid>
+      <description>With GSoC coming to an end, I would like to summarize the work that has been completed. The proposal I wrote for the project was on the track with the ideas list which was mentioned for the same, augmented with few ideas of my own. I time required for the accomplishment of the tasks mentioned in ideas list was extended due to extensive testing in different systems and configurations to find solutions.</description>
+    </item>
+    
+    <item>
       <title>Every end is a new beginning</title>
       <link>https://pranita-s.github.io/post/final/</link>
-      <pubDate>Wed, 08 Aug 2018 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/final/</guid>
       <description>Standing in the position of being in final evaluation is surreal.
@@ -24,7 +33,7 @@ The journey for GSoC started in January 2018, when I came to know about it but d
     <item>
       <title>Survive the (Travis) test of time</title>
       <link>https://pranita-s.github.io/post/test/</link>
-      <pubDate>Mon, 30 Jul 2018 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 30 Jul 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/test/</guid>
       <description>The rdataretriever project not only exposed me to systematic coding, but it also introduced me to Testing and Travis. I learned how to deal with Travis environment and its different and weird behaviour when it comes to intrepreting paths. In the beginning, it was little overwhelming because all I could see was &amp;ldquo;red crosses&amp;rdquo; on my dashboard with occassional &amp;ldquo;green&amp;rdquo; ones (Breathing a sigh of relief) after consistent updates to the config file in the hopes that it will pass.</description>
@@ -33,7 +42,7 @@ The journey for GSoC started in January 2018, when I came to know about it but d
     <item>
       <title>Out with the old, in with the new</title>
       <link>https://pranita-s.github.io/post/python_versions/</link>
-      <pubDate>Wed, 11 Jul 2018 00:00:00 +0530</pubDate>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/python_versions/</guid>
       <description>The migration of Python from 2 to 3 has given some unprecedented troubles to Python developers. There are variety of differences between the two, and the biggest pain is the fact that new packages and bundles do not really have a great support to Python 2. To add to the despair, the errors encountered are the not the true reflection of the trouble going on inside the actual code.
@@ -43,7 +52,7 @@ After being certain with the Reticulate and its application in writing the new r
     <item>
       <title>Peculiar Case of Environments</title>
       <link>https://pranita-s.github.io/post/envs/</link>
-      <pubDate>Sun, 08 Jul 2018 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/envs/</guid>
       <description>After in depth analysis and various permutations of testing environments, we figured out that in the journey to code check_retriever() function for rdataretriever package, the most difficult hurdle to overcome is not different operating systems (Linux, Windows, MacOS). Its actually the existance of different virtual environments in the system.
@@ -53,7 +62,7 @@ When there are more than one virtual environments in the system, a whole new spe
     <item>
       <title>Pursuit of Python</title>
       <link>https://pranita-s.github.io/post/searchpython/</link>
-      <pubDate>Mon, 11 Jun 2018 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/searchpython/</guid>
       <description>Pursuit of Reticulate package in Windows is tricky than searching its installation in Ubuntu/Mac. Windows operating system has disintegrated structure for file storage. It also has different drives such as C,D etc. which can be the home for software installation. Over this layer of complicated file structure comes the different ways in which Python can be installed in the Windows OS. It can be a manual installation of python.exe or through frameworks such as Miniconda, Anaconda.</description>
@@ -62,7 +71,7 @@ When there are more than one virtual environments in the system, a whole new spe
     <item>
       <title>Power of Reticulate</title>
       <link>https://pranita-s.github.io/post/reticulate/</link>
-      <pubDate>Sun, 20 May 2018 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 20 May 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/reticulate/</guid>
       <description>It is been two weeks, since my last post about my GSoC selection. The first task assigned to me was writing a versatile install function for R API which will be at par in terms of functionalities of Python API. Earlier during my proposal preparation, I focussed on the need of configuration details required by databases such as PostgreSQL,MySQL,SQLite. For instance, they could be made available through, configuration file (custom made by user or default file) or in absence of this file, command the Retriever to use defaults from code base.</description>
@@ -71,7 +80,7 @@ When there are more than one virtual environments in the system, a whole new spe
     <item>
       <title>Google Summer of Code 2018</title>
       <link>https://pranita-s.github.io/post/gsocselection/</link>
-      <pubDate>Sat, 05 May 2018 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 05 May 2018 00:00:00 -0400</pubDate>
       
       <guid>https://pranita-s.github.io/post/gsocselection/</guid>
       <description>The clock struck 9:30 pm IST on 23rd April, 2018. I had been extremely impatient for this day since I submitted my proposal for Google Summer of Code on 27th March 2018. I checked my dashboard on the GSoC website and it showed my status as Active. I was flummoxed after seeing it, as I did not really know what to comprehend - Am I selected ? or Am I not ?</description>
